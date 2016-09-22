@@ -3,11 +3,11 @@
 abstract class Template
 {
     public function templateMethod(){
-        echo "beging templateMethod";
+        echo "<span style='color: #ff7a0e'>beging templateMethod</span> <br />";
         $this->doA();
         $this->doB();
         $this->doC();
-        echo "The End";
+        echo "<span style='color: #ff7a0e'>The End</span>";
     }
 
     abstract function doA();

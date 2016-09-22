@@ -1,5 +1,5 @@
 <?php
-include_once 'Decorator.php'; 'DecoratorBase.php';
+include_once 'Decorator.php';
 
 class Man extends DecoratorBase
 {
